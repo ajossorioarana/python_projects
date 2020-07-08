@@ -15,10 +15,8 @@ def game_select():
 			break	# Until player selects one of the options, the loop continues
 		print('Please, select one of the options: (1), (2), or (q).')
 
-	if menu_choice == '1':
-		main_vs_ai()
-	elif menu_choice == '2':
-		main_ai_vs_ai() 
+	return menu_choice
+
 
 
 def main_vs_ai():
@@ -124,6 +122,13 @@ def turn_eval(player_move, ai_move, wins, draws, losses):
 	return wins, draws , losses
 
 
+# Start of program
 print('ROCK, PAPERS, SCISSORS')
 print('')
-game_select()
+
+menu_choice = game_select()
+
+if menu_choice == '1':
+	main_vs_ai()
+elif menu_choice == '2':
+	main_ai_vs_ai() 
