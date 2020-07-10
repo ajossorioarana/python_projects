@@ -4,3 +4,4 @@ This is a compilation of small python projects that I've done to learn more Pyth
 
 1. Guess the Number
 2. Rock, Paper, Scissors
+4. Collatz Sequence
