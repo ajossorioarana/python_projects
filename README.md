@@ -8,3 +8,4 @@ This is a compilation of small python projects that I've done to learn more Pyth
 4. Input validation
 5. Dice Simulator
 6. Conway's Game of Life
+7. Comma code
